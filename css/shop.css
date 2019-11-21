@@ -30,7 +30,7 @@ a {
 
 .sidebar {
   grid-area: sidebar;
-  background-color: #1a1a1d;
+  background-color: #fff;
 }
 
 .main-content {
@@ -95,6 +95,7 @@ a {
 .main-content-cta .date {
   color: #66fcf1;
   font-size: 2rem;
+  display: none;
 }
 
 .footer {
@@ -183,4 +184,8 @@ nav {
 
 .item-desc h1 {
   color: black;
+}
+
+.btn-group a:hover{
+  color: #c3073f  
 }
