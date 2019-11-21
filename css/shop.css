@@ -12,6 +12,11 @@ html {
 }
 a {
   text-decoration: none;
+  color: #fff;
+}
+
+a:visited {
+  color: #45a29e;
 }
 
 #wrapper {
@@ -186,6 +191,6 @@ nav {
   color: black;
 }
 
-.btn-group a:hover{
-  color: #c3073f  
+.btn-group a:hover {
+  color: #c3073f;
 }
